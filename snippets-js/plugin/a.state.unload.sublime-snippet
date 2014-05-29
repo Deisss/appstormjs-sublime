@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.state.unload('${1:id}');]]></content>
+    <tabTrigger>state.unload</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

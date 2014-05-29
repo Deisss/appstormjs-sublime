@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[var form = a.form.get('${1:selector}');]]></content>
+    <tabTrigger>form.get</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

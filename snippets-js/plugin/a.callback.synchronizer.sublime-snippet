@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[var synchronizer = a.callback.synchronizer(null, function(chain) {
+    // Success
+}, function(chain) {
+    // Error
+});
+
+// Adding a callback to run before success
+synchronizer.addCallback(function(chain) {
+    // For accessing error function
+    // chain.error();
+    // For accessing success function
+    chain.next();
+});
+
+// Starting synchronizer
+synchronizer.start();]]></content>
+    <tabTrigger>callback.synchronizer</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

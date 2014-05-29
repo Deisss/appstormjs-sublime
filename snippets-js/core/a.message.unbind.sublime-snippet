@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[a.message.unbind('${1:event}', ${2:function(e) \{
+\}});]]></content>
+    <tabTrigger>message.unbind</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[a.state.add({
+    id: '${1:id}',
+    parent: '${2:parentid}',
+    entry: '${3:#container}',
+    type: '${4:replace}',
+    include: {
+        html: '${5:path}'
+    },
+    bind: {
+        '${6:a} | click': function(e) {
+            e.preventDefault();
+            var el = e.target;
+        }
+    },
+    converter: function(data) {
+
+    },
+    postLoad: function() {
+
+    }
+});]]></content>
+    <tabTrigger>state</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

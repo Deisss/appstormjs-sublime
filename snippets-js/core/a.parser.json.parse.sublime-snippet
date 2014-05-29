@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[var data = a.parser.json.parse(${1:json});]]></content>
+    <tabTrigger>json.parse</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[var instance = a.modelManager.get(uid);]]></content>
+    <tabTrigger>model.get</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

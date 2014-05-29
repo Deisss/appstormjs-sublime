@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.storage.cookie.remove('${1:key}');]]></content>
+    <tabTrigger>cookie.remove</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

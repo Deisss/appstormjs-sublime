@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.isNone(${1:value})]]></content>
+    <tabTrigger>none</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

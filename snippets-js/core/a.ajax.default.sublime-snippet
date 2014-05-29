@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[a.setDefaultAjaxOptions({
+    header: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    }
+});]]></content>
+    <tabTrigger>ajax.default</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

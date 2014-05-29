@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[a.keyboard.unbind('${1:key}', ${2:function(e) \{
+\}});]]></content>
+    <tabTrigger>keyboard.unbind</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.route.go('${1:hash}');]]></content>
+    <tabTrigger>route.go</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

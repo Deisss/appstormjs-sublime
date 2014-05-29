@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.message.dispatch('${1:event}', ${2:data});]]></content>
+    <tabTrigger>message.dispatch</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

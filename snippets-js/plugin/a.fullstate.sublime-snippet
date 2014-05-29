@@ -1,0 +1,58 @@
+<snippet>
+    <content><![CDATA[a.state.add({
+    id: '${1:id}',
+    parent: '${2:parentid}',
+    hash: '${3:hash}',
+    title: '${4:title}',
+    entry: '${5:#container}',
+    type: '${6:replace}',
+    async: false,
+    include: {
+        css: '${7:resources/css/}',
+        js: '${8:resources/js/}',
+        html: '${9:resources/html/}',
+        translate: '${10:resources/tr/}',
+        partials: {
+            ${11:product}: '${12:resources/partials/}'
+        }
+    },
+    data: {
+        ${13:content}: {
+            url: '${14:url}',
+            options: ${15:\{\}}
+        }
+    },
+    acl: {
+        minimum: '${16:user}',
+        maximum: '${17:administrator}',
+        allowed: ['${18:user}', '${19:administrator}'],
+        refused: ['${20:leader}']
+    },
+    bind: {
+        '${21:a} | ${22:click}': function(e) {
+            e.preventDefault();
+            var el = e.target;
+        }
+    },
+    bindGlobal: {
+        '${23:a} | ${24:click}': function(e) {
+            e.preventDefault();
+            var el = e.target;
+        }
+    },
+    keyboard: {
+        '${25:ctrl+a}': function(e) {
+        }    
+    },
+    converter: function(data) {},
+    preLoad: function() {},
+    load: function() {},
+    postLoad: function() {},
+    preUnload: function() {},
+    unload: function() {},
+    postUnload: function() {},
+    loadAfter: '${26:}'
+});]]></content>
+    <tabTrigger>fullstate</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

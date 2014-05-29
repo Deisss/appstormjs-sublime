@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[var result = a.form.validateAndGet('${1:selector}');]]></content>
+    <tabTrigger>form.validateAndGet</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

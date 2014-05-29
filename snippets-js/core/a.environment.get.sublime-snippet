@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.environment.get('${1:value}');]]></content>
+    <tabTrigger>environment.get</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

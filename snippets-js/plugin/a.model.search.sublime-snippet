@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[// Search an existing instance regarding elements
+var ${1:instance} = a.a.modelPooler.searchInstance({
+    // Model type to search (NEEDED)
+    model: '${2:name}',
+    // Search in properties
+    ${3:id}: ${4:5},
+    ${5:title}: ${6:'hello'}
+});]]></content>
+    <tabTrigger>model.search</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

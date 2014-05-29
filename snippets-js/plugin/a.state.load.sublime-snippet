@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.state.load('${1:id}');]]></content>
+    <tabTrigger>state.load</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

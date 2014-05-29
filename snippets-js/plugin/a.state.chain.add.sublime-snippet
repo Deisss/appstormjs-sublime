@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[// Create a custom chain on loading/unloading state
+a.state.chain.add('${1:load}', '${2:name}', function() {
+    // The this refer to current state
+    if(this.customElement) {
+        // Do something with customElement
+    }
+
+    // Don't forget to continue chain
+    // And keep parameters passing threw chain...
+    var args  = a.toArray(arguments),
+        chain = a.last(args),
+        other = a.initial(args);
+
+    chain.next.apply(this, other);
+}, {
+    // Place the chain at a specific place
+    // Here, after the title chain element
+    // Or you can use 'before'
+    after: '${3:title}'
+});]]></content>
+    <tabTrigger>state.chain.add</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

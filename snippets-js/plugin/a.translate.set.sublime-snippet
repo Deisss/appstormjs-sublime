@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.translate.set('${1:language}', ${3:dictionnary});]]></content>
+    <tabTrigger>translate.set</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

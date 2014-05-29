@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.console.info('${1:log}');]]></content>
+    <tabTrigger>info</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

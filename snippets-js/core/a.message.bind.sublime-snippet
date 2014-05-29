@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[a.message.bind('${1:event}', ${2:function(e) \{
+\}}, ${3:scope});]]></content>
+    <tabTrigger>message.bind</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

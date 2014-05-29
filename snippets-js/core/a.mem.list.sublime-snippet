@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.mem.list();]]></content>
+    <tabTrigger>mem.list</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

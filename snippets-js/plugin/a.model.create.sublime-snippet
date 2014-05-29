@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[//Note: you must create model first before getting instance
+var ${1:instance} = a.model('${2:name}');]]></content>
+    <tabTrigger>model.create</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

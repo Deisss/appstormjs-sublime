@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.scope(function() {}, ${1:scope});]]></content>
+    <tabTrigger>scope</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

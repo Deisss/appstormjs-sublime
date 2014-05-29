@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[var request = new a.ajax({
+        url: '${1:url}',
+        method: '${2:POST}',
+        data: {},
+        template: ['${3:json}']
+}, function(data, status) {
+    // Success
+}, function(url, status) {
+    // Error
+});
+
+request.send();]]></content>
+    <tabTrigger>ajax</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

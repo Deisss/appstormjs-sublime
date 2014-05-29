@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[a.hash.getHash();]]></content>
+    <tabTrigger>hash.get</tabTrigger>
+    <source>source.javascript</source>
+</snippet>

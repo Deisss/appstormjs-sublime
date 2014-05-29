@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[a.state.type.add('${1:name}', function append(entry, content, chain) {
+    // Loading type
+    if(content) {
+        // Do something to put content into entry
+        // Be carefull, entry is a AppStorm a.dom one
+        ${2:}
+    }
+    if(chain) {
+        chain.next();
+    }
+}, function(entry, chain) {
+    // Unloading type
+    // Do something with entry if needed
+    ${3:}
+    if(chain) {
+        chain.next();
+    }
+
+// True: run in async
+}, ${4:true});]]></content>
+    <tabTrigger>state.type.add</tabTrigger>
+    <source>source.javascript</source>
+</snippet>
