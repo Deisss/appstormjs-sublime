@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[data-name="${1:key}"]]></content>
+    <tabTrigger>data-name</tabTrigger>
+    <source>source.html</source>
+</snippet>

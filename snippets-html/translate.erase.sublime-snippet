@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[data-erase-tr="${1:key}"]]></content>
+    <tabTrigger>data-erase-tr</tabTrigger>
+    <source>source.html</source>
+</snippet>
