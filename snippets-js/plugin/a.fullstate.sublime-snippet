@@ -42,7 +42,7 @@
     },
     keyboard: {
         '${25:ctrl+a}': function(e) {
-        }    
+        }
     },
     converter: function(data) {},
     preLoad: function() {},
