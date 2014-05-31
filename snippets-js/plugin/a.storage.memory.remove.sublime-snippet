@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.storage.memory.remove('${1:key}');]]></content>
-    <tabTrigger>memory.remove</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

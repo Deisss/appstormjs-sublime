@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.storage.cookie.set('${1:key}', ${2:value});]]></content>
-    <tabTrigger>cookie.set</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.storage.get('${1:key}');]]></content>
-    <tabTrigger>storage.get</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

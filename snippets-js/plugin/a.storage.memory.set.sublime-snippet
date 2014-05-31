@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.storage.memory.set('${1:key}', ${2:value});]]></content>
-    <tabTrigger>memory.set</tabTrigger>
-    <source>source.javascript</source>
-</snippet>
