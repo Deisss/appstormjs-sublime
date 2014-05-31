@@ -2,14 +2,14 @@
     <content><![CDATA[var ${1:request} = new a.ajax({
         url: '${2:url}',
         method: '${3:POST}',
-        data: {},
-        template: ['${4:json}']
+        data: ${4:\{\}},
+        template: ['${5:json}']
 }, function(data, status) {
     // Success
-    ${5:}
+    ${6:}
 }, function(url, status) {
     // Error
-    ${6:}
+    ${7:}
 });
 
 ${1:request}.send();]]></content>
