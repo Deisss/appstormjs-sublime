@@ -1,20 +1,23 @@
 <snippet>
-    <content><![CDATA[var chainer = a.callback.chainer(null, function(chain) {
+    <content><![CDATA[var ${1:chainer} = a.callback.chainer(null, function(chain) {
     // Success
+    ${2:}
 }, function(chain) {
     // Error
+    ${3:}
 });
 
 // Adding a callback to run before success
-chainer.addCallback(function(chain) {
+${1:chainer}.addCallback(function(chain) {
     // For stopping and launch error function
     // chain.error();
+    ${4:}
     // For accessing next function and finally success function
     chain.next();
 });
 
 // Starting chainer
-chainer.start();]]></content>
+${1:chainer}.start();]]></content>
     <tabTrigger>callback.chainer</tabTrigger>
     <source>source.javascript</source>
     <description>Create new chainer instance</description>
