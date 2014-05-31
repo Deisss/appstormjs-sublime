@@ -17,4 +17,5 @@ synchronizer.addCallback(function(chain) {
 synchronizer.start();]]></content>
     <tabTrigger>callback.synchronizer</tabTrigger>
     <source>source.javascript</source>
+    <description>Create new synchronizer instance</description>
 </snippet>

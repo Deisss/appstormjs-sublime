@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[var ${1:state} = a.state.get('${2:id}');]]></content>
-    <tabTrigger>state.get</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

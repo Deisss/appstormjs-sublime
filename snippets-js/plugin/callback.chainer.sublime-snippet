@@ -17,4 +17,5 @@ chainer.addCallback(function(chain) {
 chainer.start();]]></content>
     <tabTrigger>callback.chainer</tabTrigger>
     <source>source.javascript</source>
+    <description>Create new chainer instance</description>
 </snippet>

@@ -21,4 +21,5 @@
 }, ${4:true});]]></content>
     <tabTrigger>state.type.add</tabTrigger>
     <source>source.javascript</source>
+    <description>Register a type for custom loading</description>
 </snippet>

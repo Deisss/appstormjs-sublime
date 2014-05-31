@@ -1,0 +1,12 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "translate.getLanguage\tGet current language", "contents": "var ${1:language} = a.translate.getLanguage();" },
+        { "trigger": "translate.setLanguage\tSet current language", "contents": "a.translate.setLanguage('${1:language}');" },
+        { "trigger": "translate.add\tAdd translation",              "contents": "a.translate.add('${1:language}', '${2:key}', '${3:translation}');" },
+        { "trigger": "translate.set\tSet dictionnary translation",  "contents": "a.translate.set('${1:language}', ${3:dictionnary});" },
+        { "trigger": "translate.translate\tTranslate DOM",          "contents": "a.translate.translate(${1:dom});" },
+    ]
+}

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[a.template.get('${1:url}', ${2:\{\}}, function() {
-    ${3:}
-}});]]></content>
-    <tabTrigger>template.get</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

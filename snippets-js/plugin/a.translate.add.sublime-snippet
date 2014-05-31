@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.translate.add('${1:language}', '${2:key}', '${3:translation}');]]></content>
-    <tabTrigger>translate.add</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

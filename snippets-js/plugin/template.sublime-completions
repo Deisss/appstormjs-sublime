@@ -1,0 +1,9 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "template.partial\tget a partial template", "contents": "a.template.partial('${1:name}', '${2:url}', function() {\n\t${3:}\n}});" },
+        { "trigger": "template.get\tGet an html template",       "contents": "a.template.get('${1:url}', ${2:\\{\\}}, function() {\n\t${3:}\n}});" },
+    ]
+}

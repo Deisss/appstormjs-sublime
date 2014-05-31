@@ -1,0 +1,9 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "model.create\tCreate a new model instance", "contents": "//Note: you must create model first before getting instance\nvar ${1:instance} = a.model('${2:name}');" },
+        { "trigger": "model.get\tGet a model instance",           "contents": "var ${1:instance} = a.modelManager.get(${2:uid});" },
+    ]
+}

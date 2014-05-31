@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.translate.translate(dom);]]></content>
-    <tabTrigger>translate.translate</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

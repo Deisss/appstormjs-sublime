@@ -22,4 +22,5 @@
 });]]></content>
     <tabTrigger>state</tabTrigger>
     <source>source.javascript</source>
+    <description>Create a state</description>
 </snippet>

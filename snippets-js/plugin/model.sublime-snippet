@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[var ${1:myModel} = a.model('${2:name}', {
+    // Property name
+    ${3:name}: {
+        // Remember every property are optionals
+        init: ${4:'hello'},
+        nullable: ${5:false},
+        // Even if there is no change, appear in snapshot
+        needed: ${6:true},
+        check: ${7:'string'},
+        pattern: '${8:[a-zA-Z0-9]+}',
+        event:'change${3:name}',
+        validate: ${9:function(value, old) \{
+            // value: new value
+            // old: current value
+            return true;
+        \}},
+        transform: ${10:function(value, old) \{
+            // Convert data before storing it
+            return '' + value;
+        \}},
+        apply: ${11:function(value, old) \{
+            // Do something when applying data
+        \}}
+    }
+});
+
+var ${12:instance} = new ${1:myModel}();]]></content>
+    <tabTrigger>model</tabTrigger>
+    <source>source.javascript</source>
+    <description>Register a new model type</description>
+</snippet>

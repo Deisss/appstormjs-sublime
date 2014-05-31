@@ -1,0 +1,10 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "form.get\tGet form content",                         "contents": "var ${1:form} = a.form.get('${2:selector}');" },
+        { "trigger": "form.validate\tValidate form content", "contents":   "var ${1:result} = a.form.validate('${2:selector}');" },
+        { "trigger": "form.validateAndGet\tValidate and get form content", "contents": "var ${1:result} = a.form.validateAndGet('${2:selector}');" },
+    ]
+}

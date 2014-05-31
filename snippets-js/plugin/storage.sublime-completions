@@ -1,0 +1,18 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "cookie.get\tGet cookie",       "contents": "a.storage.cookie.get('${1:key}');" },
+        { "trigger": "cookie.set\tSet cookie",       "contents": "a.storage.cookie.set('${1:key}', ${2:value});" },
+        { "trigger": "cookie.remove\tDelete cookie", "contents": "a.storage.cookie.remove('${1:key}');" },
+
+        { "trigger": "memory.get\tGet memory",       "contents": "a.storage.memory.get('${1:key}');" },
+        { "trigger": "memory.set\tSet memory",       "contents": "a.storage.memory.set('${1:key}', ${2:value});" },
+        { "trigger": "memory.remove\tDelete memory", "contents": "a.storage.memory.remove('${1:key}');" },
+
+        { "trigger": "storage.get\tGet storage",       "contents": "a.storage.get('${1:key}');" },
+        { "trigger": "storage.set\tSet storage",       "contents": "a.storage.set('${1:key}', ${2:value});" },
+        { "trigger": "storage.remove\tDelete storage", "contents": "a.storage.remove('${1:key}');" },
+    ]
+}

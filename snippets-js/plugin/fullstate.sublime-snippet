@@ -28,6 +28,22 @@
         allowed: ['${18:user}', '${19:administrator}'],
         refused: ['${20:leader}']
     },
+    error : {
+        // Load 'state-400' which show an error bad request
+        _400: 'state-400',
+        _401: function() {
+            var hash = a.hash.getHash();
+            // TODO: store hash somewhere to go back
+            // To this page when login is done
+            a.route.go('/account/login');
+        },
+        // Load 'state-403' which show an error forbidden
+        _403: 'state-403',
+        // Load 'state-404' which show an error not found
+        _404: 'state-404',
+        // Load 'state-500' which show an error internal server error
+        _5xx: 'state-500'
+    },
     bind: {
         '${21:a} | ${22:click}': function(e) {
             e.preventDefault();
@@ -55,4 +71,5 @@
 });]]></content>
     <tabTrigger>fullstate</tabTrigger>
     <source>source.javascript</source>
+    <description>Create a state</description>
 </snippet>

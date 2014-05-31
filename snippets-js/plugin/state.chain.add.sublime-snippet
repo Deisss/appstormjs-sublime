@@ -21,4 +21,5 @@ a.state.chain.add('${1:load}', '${2:name}', function() {
 });]]></content>
     <tabTrigger>state.chain.add</tabTrigger>
     <source>source.javascript</source>
+    <description>Register a state chain</description>
 </snippet>

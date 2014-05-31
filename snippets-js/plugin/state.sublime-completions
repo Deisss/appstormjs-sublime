@@ -1,0 +1,11 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "state.load\tManually load a state",     "contents": "a.state.load('${1:id}');" },
+        { "trigger": "state.unload\tManually unload a state", "contents": "a.state.unload('${1:id}');" },
+        { "trigger": "state.get\tGet an existing state",      "contents": "var ${1:state} = a.state.get('${2:id}');" },
+        { "trigger": "state.extend\tExtend a state",          "contents": "a.state.extend('${1:id}', {${2:}});" },
+    ]
+}

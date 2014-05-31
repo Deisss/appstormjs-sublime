@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[var language = a.translate.getLanguage();]]></content>
-    <tabTrigger>translate.getLanguage</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

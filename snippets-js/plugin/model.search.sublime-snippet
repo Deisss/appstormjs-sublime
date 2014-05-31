@@ -9,4 +9,5 @@ var ${1:instance} = a.a.modelPooler.searchInstance({
 });]]></content>
     <tabTrigger>model.search</tabTrigger>
     <source>source.javascript</source>
+    <description>Search a model</description>
 </snippet>
