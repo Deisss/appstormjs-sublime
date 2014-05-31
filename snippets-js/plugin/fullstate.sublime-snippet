@@ -29,20 +29,20 @@
         refused: ['${20:leader}']
     },
     error : {
-        // Load 'state-400' which show an error bad request
-        _400: 'state-400',
+        // Load 'error-400' which show an error bad request
+        _400: 'error-400',
         _401: function() {
             var hash = a.hash.getHash();
             // TODO: store hash somewhere to go back
             // To this page when login is done
-            a.route.go('/account/login');
+            a.route.go('login');
         },
-        // Load 'state-403' which show an error forbidden
-        _403: 'state-403',
-        // Load 'state-404' which show an error not found
-        _404: 'state-404',
-        // Load 'state-500' which show an error internal server error
-        _5xx: 'state-500'
+        // Load 'error-403' which show an error forbidden
+        _403: 'error-403',
+        // Load 'error-404' which show an error not found
+        _404: 'error-404',
+        // Load 'error-500' which show an error internal server error
+        _5xx: 'error-500'
     },
     bind: {
         '${21:a} | ${22:click}': function(e) {
