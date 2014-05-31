@@ -1,10 +1,11 @@
 <snippet>
     <content><![CDATA[a.setTemplateAjaxOptions('${1:name}', {
-    header: {
+    ${2:header: \{
         'Content-Type': 'application/json',
         'Accept': 'application/json'
-    }
+    \}}
 });]]></content>
     <tabTrigger>ajax.template</tabTrigger>
     <source>source.javascript</source>
+    <description>Create ajax template</description>
 </snippet>

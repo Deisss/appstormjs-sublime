@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.route.navigate('${1:hash}');]]></content>
-    <tabTrigger>route.navigate</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

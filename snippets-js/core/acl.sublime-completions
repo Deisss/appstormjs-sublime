@@ -1,0 +1,10 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "acl.getCurrentRole\tGet current ACL role", "contents": "a.acl.getCurrentRole();" },
+        { "trigger": "acl.setRoleList\tSet available ACL role",  "contents": "a.acl.setRoleList(['${1:user}', '${2:administrator}'${3:}]);" },
+        { "trigger": "acl.setCurrentRole\tSet current ACL role", "contents": "a.acl.setCurrentRole('${1:role}');" },
+    ]
+}

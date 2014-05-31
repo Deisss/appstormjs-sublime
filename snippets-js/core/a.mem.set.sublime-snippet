@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.mem.set('${1:key}', ${2:value});]]></content>
-    <tabTrigger>mem.set</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

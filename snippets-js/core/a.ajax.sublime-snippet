@@ -1,16 +1,19 @@
 <snippet>
-    <content><![CDATA[var request = new a.ajax({
-        url: '${1:url}',
-        method: '${2:POST}',
+    <content><![CDATA[var ${1:request} = new a.ajax({
+        url: '${2:url}',
+        method: '${3:POST}',
         data: {},
-        template: ['${3:json}']
+        template: ['${4:json}']
 }, function(data, status) {
     // Success
+    ${5:}
 }, function(url, status) {
     // Error
+    ${6:}
 });
 
-request.send();]]></content>
+${1:request}.send();]]></content>
     <tabTrigger>ajax</tabTrigger>
     <source>source.javascript</source>
+    <description>Create an ajax request</description>
 </snippet>

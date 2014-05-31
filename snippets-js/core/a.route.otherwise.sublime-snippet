@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.route.otherwise(${2:function() \{\}}, '${3:entering}');]]></content>
-    <tabTrigger>route.otherwise</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

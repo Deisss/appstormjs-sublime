@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.mock.add('${1:GET}', '${2:url}', ${3:\{\}}, '${4:model}');]]></content>
-    <tabTrigger>mock.add</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

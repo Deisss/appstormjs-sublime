@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[var timerObject = a.timer.get(${1:timerId});]]></content>
-    <tabTrigger>timer.get</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

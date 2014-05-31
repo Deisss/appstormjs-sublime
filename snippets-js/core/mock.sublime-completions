@@ -1,0 +1,9 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "mock.add\tCreate mock object", "contents": "a.mock.add('${1:GET}', '${2:url}', ${3:\\{\\}}, '${4:model}');" },
+        { "trigger": "mock.get\tGet mock object",    "contents": "a.mock.get('${1:GET}', '${2:url}');" },
+    ]
+}

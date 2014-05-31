@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[var trace = a.getStackTrace();]]></content>
-    <tabTrigger>trace</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

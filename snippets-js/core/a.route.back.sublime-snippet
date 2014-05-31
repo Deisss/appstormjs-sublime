@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.route.back();]]></content>
-    <tabTrigger>route.back</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.extend(${1:\{\}}, ${2:\{\}});]]></content>
-    <tabTrigger>extend</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

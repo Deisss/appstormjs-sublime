@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[var clone = a.deepClone(${1:obj});]]></content>
-    <tabTrigger>clone</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

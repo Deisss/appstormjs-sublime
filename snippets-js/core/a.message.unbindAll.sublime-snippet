@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.message.unbindAll('${1:event}');]]></content>
-    <tabTrigger>message.unbindAll</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

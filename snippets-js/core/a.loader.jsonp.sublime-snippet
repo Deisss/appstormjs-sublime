@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[a.loader.jsonp(${1:url}, ${2:function() \{
-    // Callback
-\}});]]></content>
-    <tabTrigger>loader.jsonp</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

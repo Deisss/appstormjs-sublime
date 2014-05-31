@@ -1,0 +1,10 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "message.bind\tBind event",                "contents": "a.message.bind('${1:event}', ${2:function(e) \\{\n\\}}, ${3:scope});" },
+        { "trigger": "message.unbind\tUnbind event",            "contents": "a.message.unbind('${1:event}', ${2:function(e) \\{\n\\}});" },
+        { "trigger": "message.dispatch\tDispatch event",        "contents": "a.message.dispatch('${1:event}', ${2:data});" },
+    ]
+}

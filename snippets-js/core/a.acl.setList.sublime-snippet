@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.acl.setRoleList(['${1:user}', '${2:administrator}']);]]></content>
-    <tabTrigger>acl.setRoleList</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.acl.getCurrentRole();]]></content>
-    <tabTrigger>acl.getCurrentRole</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

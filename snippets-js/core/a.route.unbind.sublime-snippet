@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.route.unbind('${1:hash}', ${2:function() \{\}}, '${3:entering}');]]></content>
-    <tabTrigger>route.unbind</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

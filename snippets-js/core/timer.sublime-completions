@@ -1,0 +1,11 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "timer.add\tCreate a timer",         "contents": "var ${1:timerId} = a.timer.add(${2:function() \\{\\}}, ${3:scope}, ${4:200});" },
+        { "trigger": "timer.get\tGet a timer",            "contents": "var ${1:timer} = a.timer.get(${2:timerId});" },
+        { "trigger": "timer.once\tCreate one tick timer", "contents": "var ${1:timerId} = a.timer.once(${2:function() \\{\\}}, ${3:scope}, ${4:200});" },
+        { "trigger": "timer.remove\tStop a timer",        "contents": "a.timer.remove(${1:timerId});" },
+    ]
+}

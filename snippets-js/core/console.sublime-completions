@@ -1,0 +1,11 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "log\tconsole.log",     "contents": "a.console.log('${1:log}');" },
+        { "trigger": "info\tconsole.info",   "contents": "a.console.info('${1:log}');" },
+        { "trigger": "warn\tconsole.warn",   "contents": "a.console.warn('${1:log}');" },
+        { "trigger": "error\tconsole.error", "contents": "a.console.error('${1:log}');" },
+    ]
+}

@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[var timerId = a.timer.once(${1:function() \{\}}, ${2:scope}, ${3:200});]]></content>
-    <tabTrigger>timer.once</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

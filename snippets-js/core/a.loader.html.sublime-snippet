@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[a.loader.html(${1:url}, ${2:function() \{
-    // Callback
-\}});]]></content>
-    <tabTrigger>loader.html</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

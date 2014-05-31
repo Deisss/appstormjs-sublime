@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.mem.remove('${1:key}');]]></content>
-    <tabTrigger>mem.remove</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

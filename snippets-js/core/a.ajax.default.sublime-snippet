@@ -7,4 +7,5 @@
 });]]></content>
     <tabTrigger>ajax.default</tabTrigger>
     <source>source.javascript</source>
+    <description>Set default ajax options</description>
 </snippet>

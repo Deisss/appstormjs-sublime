@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[var xml = a.parser.xml.stringify(${1:data});]]></content>
-    <tabTrigger>xml.stringify</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

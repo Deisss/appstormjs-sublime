@@ -1,0 +1,11 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "json.stringify\tStringify JSON", "contents": "var ${1:json} = a.parser.json.stringify(${2:data});" },
+        { "trigger": "json.parse\tParse JSON",         "contents": "var ${1:data} = a.parser.json.parse(${2:json});" },
+        { "trigger": "xml.stringify\tStringify XML",   "contents": "var ${1:xml} = a.parser.xml.stringify(${2:data});" },
+        { "trigger": "xml.parse\tParse XML",           "contents": "var ${1:data} = a.parser.xml.parse(${2:xml});" },
+    ]
+}

@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[a.timer.remove(${1:timerId});]]></content>
-    <tabTrigger>timer.remove</tabTrigger>
-    <source>source.javascript</source>
-</snippet>

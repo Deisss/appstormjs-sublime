@@ -1,0 +1,13 @@
+{
+    "scope": "source.js -string -comment -constant",
+
+    "completions":
+    [
+        { "trigger": "loader.css\tLoad CSS",     "contents": "a.loader.css(${1:url}, ${2:function() \\{\n\t// Callback\n\\}});" },
+        { "trigger": "loader.jsonp\tLoad JSONP", "contents": "a.loader.jsonp(${1:url}, ${2:function() \\{\n\t// Callback\n\\}});" },
+        { "trigger": "loader.html\tLoad HTML",   "contents": "a.loader.html(${1:url}, ${2:function() \\{\n\t// Callback\n\\}});" },
+        { "trigger": "loader.xml\tLoad XML",     "contents": "a.loader.xml(${1:url}, ${2:function() \\{\n\t// Callback\n\\}});" },
+        { "trigger": "loader.json\tLoad JSON",   "contents": "a.loader.json(${1:url}, ${2:function() \\{\n\t// Callback\n\\}});" },
+        { "trigger": "loader.js\tLoad JS",       "contents": "a.loader.js(${1:url}, ${2:function() \\{\n\t// Callback\n\\}});" },
+    ]
+}
