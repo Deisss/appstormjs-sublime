@@ -3,11 +3,11 @@
 
     "completions":
     [
-        { "trigger": "route.go\tGo to hashtag",           "contents": "a.route.go('${1:hash}');" },
-        { "trigger": "route.navigate\tGo to hashtag",     "contents": "a.route.navigate('${1:hash}');" },
-        { "trigger": "route.back\tGo backward",           "contents": "a.route.back();" },
-        { "trigger": "route.otherwise\tBind hash change", "contents": "a.route.bind('${1:hash}', ${2:function() \\{\\}}, '${3:entering}');" },
-        { "trigger": "route.bind\tBind hash change",      "contents": "a.route.bind('${1:hash}', ${2:function() \\{\\}}, '${3:entering}');" },
-        { "trigger": "route.unbind\tUnbind hash change",  "contents": "a.route.unbind('${1:hash}', ${2:function() \\{\\}}, '${3:entering}');" },
+        { "trigger": "route.go\tGo to hashtag",               "contents": "a.route.go('${1:hash}');" },
+        { "trigger": "route.navigate\tGo to hashtag",         "contents": "a.route.navigate('${1:hash}');" },
+        { "trigger": "route.back\tGo backward",               "contents": "a.route.back();" },
+        { "trigger": "route.otherwise\tBind otherwisechange", "contents": "a.route.bind('${1:hash}', ${2:function() \\{\\}}, '${3:entering}');" },
+        { "trigger": "route.bind\tBind hash change",          "contents": "a.route.bind('${1:hash}', ${2:function() \\{\\}}, '${3:entering}');" },
+        { "trigger": "route.unbind\tUnbind hash change",      "contents": "a.route.unbind('${1:hash}', ${2:function() \\{\\}}, '${3:entering}');" },
     ]
 }
