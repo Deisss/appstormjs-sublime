@@ -2,22 +2,23 @@
     <content><![CDATA[a.state.add({
     id: '${1:id}',
     parent: '${2:parentid}',
-    entry: '${3:#container}',
-    type: '${4:replace}',
+    hash: '${3:/hash/\{\{variable: [a-zA-Z0-9]+\}\}}',
+    entry: '${4:#container}',
+    type: '${5:replace}',
     include: {
-        html: '${5:path}'
+        html: '${6:path}'
     },
     bind: {
-        '${6:a} | click': function(e) {
+        '${7:a} | click': function(e) {
             e.preventDefault();
             var el = e.target;
         }
     },
     converter: function(data) {
-
+        ${8:}
     },
     postLoad: function() {
-
+        ${9:}
     }
 });]]></content>
     <tabTrigger>state</tabTrigger>

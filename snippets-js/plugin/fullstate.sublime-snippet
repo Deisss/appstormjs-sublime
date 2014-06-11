@@ -2,7 +2,7 @@
     <content><![CDATA[a.state.add({
     id: '${1:id}',
     parent: '${2:parentid}',
-    hash: '${3:hash}',
+    hash: '${3:/hash/\{\{variable: [a-zA-Z0-9]+\}\}}',
     title: '${4:title}',
     entry: '${5:#container}',
     type: '${6:replace}',
