@@ -3,10 +3,10 @@
 
     "completions":
     [
-        { "trigger": "clone\tClone an object",            "contents": "var clone = a.deepClone(${1:obj});" },
+        { "trigger": "clone\tClone an object",            "contents": "a.deepClone(${1:obj});" },
         { "trigger": "extend\tExtend an object",          "contents": "a.extend(${1:\\{\\}}, ${2:\\{\\}});" },
-        { "trigger": "stackTrace\tGet stack trace",       "contents": "var ${1:trace} = a.getStackTrace();" },
-        { "trigger": "trace\tGet stack trace",            "contents": "var ${1:trace} = a.getStackTrace();" },
+        { "trigger": "stackTrace\tGet stack trace",       "contents": "a.getStackTrace();" },
+        { "trigger": "trace\tGet stack trace",            "contents": "a.getStackTrace();" },
         { "trigger": "isNone\tTest null or undefined",    "contents": "a.isNone(${1:value})" },
         { "trigger": "none\tTest null or undefined",      "contents": "a.isNone(${1:value})" },
         { "trigger": "scope\tSet function scope",         "contents": "a.scope(${1:function() \\{\\}}, ${2:scope});" },
