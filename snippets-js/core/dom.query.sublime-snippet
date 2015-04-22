@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[a.dom.query('${1:css selector}');]]></content>
     <tabTrigger>query</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Create DOM query</description>
 </snippet>

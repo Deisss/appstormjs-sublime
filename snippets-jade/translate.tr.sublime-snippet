@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[data-tr='${1:key}']]></content>
+    <tabTrigger>data-tr</tabTrigger>
+    <scope>source.jade -comment</scope>
+</snippet>

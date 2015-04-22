@@ -6,6 +6,6 @@
     \}}
 });]]></content>
     <tabTrigger>ajax.template</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Create ajax template</description>
 </snippet>

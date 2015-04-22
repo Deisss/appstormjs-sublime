@@ -27,6 +27,6 @@
 
 var ${12:instance} = new ${1:myModel}();]]></content>
     <tabTrigger>model</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Register a new model type</description>
 </snippet>

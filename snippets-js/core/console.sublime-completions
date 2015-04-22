@@ -3,9 +3,10 @@
 
     "completions":
     [
-        { "trigger": "log\tconsole.log",     "contents": "a.console.log('${1:log}');" },
-        { "trigger": "info\tconsole.info",   "contents": "a.console.info('${1:log}');" },
-        { "trigger": "warn\tconsole.warn",   "contents": "a.console.warn('${1:log}');" },
-        { "trigger": "error\tconsole.error", "contents": "a.console.error('${1:log}');" },
+        { "trigger": "log\tconsole.log",     "contents": "a.console.log('${1:message}');"                                      },
+        { "trigger": "info\tconsole.info",   "contents": "a.console.info('${1:message}');"                                     },
+        { "trigger": "warn\tconsole.warn",   "contents": "a.console.warn('${1:message}');"                                     },
+        { "trigger": "error\tconsole.error", "contents": "a.console.error('${1:message}');"                                    },
+        { "trigger": "storm\tconsole.storm", "contents": "a.console.storm('${1:log}', '${2:source}', '${3:message}', ${4:3});" }
     ]
 }

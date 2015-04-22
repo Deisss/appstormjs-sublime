@@ -1,9 +1,8 @@
 <snippet>
-    <content><![CDATA[var ${1:request} = new a.ajax({
+    <content><![CDATA[var ${1:request} = a.ajax({
         url: '${2:url}',
-        method: '${3:POST}',
-        data: ${4:\{\}},
-        template: ['${5:json}']
+        data: ${3:\{\}},
+        template: ['${4:GET}', ${5:json}']
 }, function(data, status) {
     // Success
     ${6:}
@@ -14,6 +13,6 @@
 
 ${1:request}.send();]]></content>
     <tabTrigger>ajax</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Create an ajax request</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[// Search an existing instance regarding elements
-var ${1:instance} = a.a.modelPooler.searchInstance({
+var ${1:instance} = a.modelPooler.searchInstance({
     // Model type to search (NEEDED)
     model: '${2:name}',
     // Search in properties
@@ -8,6 +8,6 @@ var ${1:instance} = a.a.modelPooler.searchInstance({
     ${5:title}: ${6:'hello'}
 });]]></content>
     <tabTrigger>model.search</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Search a model</description>
 </snippet>

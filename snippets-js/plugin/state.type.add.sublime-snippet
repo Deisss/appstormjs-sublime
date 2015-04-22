@@ -20,6 +20,6 @@
 // True: run in async
 }, ${4:true});]]></content>
     <tabTrigger>state.type.add</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Register a type for custom loading</description>
 </snippet>

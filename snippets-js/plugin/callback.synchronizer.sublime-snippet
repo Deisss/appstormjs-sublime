@@ -19,6 +19,6 @@ ${1:synchronizer}.addCallback(function(chain) {
 // Starting synchronizer
 ${1:synchronizer}.start();]]></content>
     <tabTrigger>callback.synchronizer</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Create new synchronizer instance</description>
 </snippet>

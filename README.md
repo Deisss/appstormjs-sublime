@@ -1,7 +1,7 @@
 # appstormjs-sublime
-Welcome to the AppStorm.JS official [Sublime Text](http://www.sublimetext.com/) plugin.
+Welcome to the AppStorm.JS [Sublime Text](http://www.sublimetext.com/) plugin.
 
-The plugin helps with a bunch of snippets to facilitate AppStorm integration into Sublime Text.
+The plugin create a bunch of snippets to facilitate AppStorm.JS integration into Sublime Text.
 
 
 ## Installation

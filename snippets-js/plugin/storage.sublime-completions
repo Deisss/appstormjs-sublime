@@ -11,6 +11,10 @@
         { "trigger": "memory.set\tSet memory",       "contents": "a.storage.memory.set('${1:key}', ${2:value});" },
         { "trigger": "memory.remove\tDelete memory", "contents": "a.storage.memory.remove('${1:key}');" },
 
+        { "trigger": "temporary.get\tGet temporary",       "contents": "a.storage.temporary.get('${1:key}');" },
+        { "trigger": "temporary.set\tSet temporary",       "contents": "a.storage.temporary.set('${1:key}', ${2:value});" },
+        { "trigger": "temporary.remove\tDelete temporary", "contents": "a.storage.temporary.remove('${1:key}');" },
+
         { "trigger": "storage.get\tGet storage",       "contents": "a.storage.get('${1:key}');" },
         { "trigger": "storage.set\tSet storage",       "contents": "a.storage.set('${1:key}', ${2:value});" },
         { "trigger": "storage.remove\tDelete storage", "contents": "a.storage.remove('${1:key}');" },

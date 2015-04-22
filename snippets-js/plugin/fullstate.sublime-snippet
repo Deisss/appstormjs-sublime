@@ -70,6 +70,6 @@
     loadAfter: '${26:}'
 });]]></content>
     <tabTrigger>fullstate</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Create a state</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[a.hash.getHash();]]></content>
     <tabTrigger>hash.get</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Get page hash</description>
 </snippet>

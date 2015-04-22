@@ -19,6 +19,6 @@ ${1:chainer}.addCallback(function(chain) {
 // Starting chainer
 ${1:chainer}.start();]]></content>
     <tabTrigger>callback.chainer</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Create new chainer instance</description>
 </snippet>

@@ -20,6 +20,6 @@ a.state.chain.add('${1:load}', '${2:name}', function() {
     after: '${3:title}'
 });]]></content>
     <tabTrigger>state.chain.add</tabTrigger>
-    <source>source.javascript</source>
+    <scope>source.js -string -comment -constant</scope>
     <description>Register a state chain</description>
 </snippet>
