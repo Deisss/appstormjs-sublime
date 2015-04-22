@@ -6,5 +6,7 @@
         { "trigger": "acl.getCurrentRole\tGet current ACL role", "contents": "a.acl.getCurrentRole();" },
         { "trigger": "acl.setRoleList\tSet available ACL role",  "contents": "a.acl.setRoleList(['${1:user}', '${2:administrator}'${3:}]);" },
         { "trigger": "acl.setCurrentRole\tSet current ACL role", "contents": "a.acl.setCurrentRole('${1:role}');" },
+        { "trigger": "acl.isAllowed\tCheck ACL role is allowed", "contents": "a.acl.isAllowed('${1:role}');"      },
+        { "trigger": "acl.isRefused\tCheck ACL role is refused", "contents": "a.acl.isRefused('${1:role}');"      }
     ]
 }
